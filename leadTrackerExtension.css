@@ -1,0 +1,65 @@
+body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: medium;
+   min-width: 300px;
+   min-height: 80px;
+   max-width: 500px;
+   
+}
+#inpBox {
+  width: 100%; 
+  margin: auto;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  padding: 8px;
+  border: 2px solid rgb(78, 175, 143);
+  border-radius: 5px;
+}
+#save {
+   font-weight: bold;
+   font-size: 18px;
+   padding: 8px 15px;
+   background-color: rgb(96, 177, 14);
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+#saveTab {
+   font-weight: bold;
+   font-size: 18px;
+   padding: 8px 15px;
+   background-color: rgb(96, 177, 14);
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+#delete {
+   font-weight: bold;
+   font-size: 18px;
+   padding: 8px 15px;
+   background-color: rgb(221, 70, 10);
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+li a {
+   color: #1a0dab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
