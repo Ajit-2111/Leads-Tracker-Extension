@@ -37,14 +37,20 @@ deleteBtn.addEventListener("click", function(){
 function displayLeads(leads){
    let leadsString = "";
    for(let i=0;i< leads.length ; i++){
-      leadsString += `<li><a href= "${leads[i]}" target="_blank"> ${leads[i]} </a></li>`;
+      if (isValidURL(leads[i])){
+         leadsString += `<li><a href= "${leads[i]}" target="_blank"> ${leads[i]} </a></li>`;
+      }
+      else{
+         leadsString += `<li> ${leads[i]} </li>`;
+      }
    }
-   console.log(leadsString);
    ulListElement.innerHTML = leadsString ;
 }
 
-
-
+function isValidURL(string) {
+   var res = string.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
+   return (res !== null)
+ };
 
 
 
