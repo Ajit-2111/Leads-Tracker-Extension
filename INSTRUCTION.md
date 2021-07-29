@@ -26,3 +26,16 @@ Hello Everyone this is a google chrome Extension which helps to store text/links
 
 
 7. Now you have installed the extension and you can use it to store the links/texts that you like.
+
+
+## FUNCTIONS
+
+* The data which you save will be available until you click the delete all button.
+* Save Tab button will automatically save the URL of the current tab on which you are working.
+* Save button will save any string which is present in the input box.
+* The input box string will be checked and if it is a link then it will be saved as a link in HTML (Using <a> tag) otherwise it will be saved as a plane text.
+
+## UPDATING THE EXTENSION
+  
+If you have edited the code and now you want your extension to inherit those changes then go to the Google chrome Extensions and Click on the update button to update the code.
+
