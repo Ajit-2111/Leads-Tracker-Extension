@@ -28,6 +28,7 @@ Hello Everyone this is a google chrome Extension which helps to store text/links
 7. Now you have installed the extension and you can use it to store the links/texts that you like.
 
 ![Annotation 2021-08-01 181345](https://user-images.githubusercontent.com/77968856/127771362-7f9fdc16-033d-45ea-a86b-a05e1591df50.jpg)
+
 ![Annotation 2021-08-01 181733](https://user-images.githubusercontent.com/77968856/127771446-16656e94-3f35-4491-9275-0aac67af7be9.jpg)
 
 
